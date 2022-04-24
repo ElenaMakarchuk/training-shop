@@ -1,0 +1,25 @@
+.product__item__container {
+  width: 255px;
+  height: 378px;
+}
+
+.product__name p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.6;
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+.product__grade {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__grade span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}

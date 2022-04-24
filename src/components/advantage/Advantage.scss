@@ -1,0 +1,42 @@
+.advantage__sectoin {
+  margin: 0 auto;
+  max-width: 1110px;
+  height: 103px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage__blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantage__blok img {
+  width: 40px;
+  height: 40px;
+}
+
+.advantage__el {
+  width: 302px;
+  height: 39px;
+  padding-left: 8px;
+}
+
+.advantage__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.advantage__subtitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  opacity: 0.9;
+}

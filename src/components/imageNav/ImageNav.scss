@@ -1,0 +1,94 @@
+.wrapper__image__nav {
+  font-family: "Spartan-Medium", sans-serif;
+  margin: 0 auto;
+  max-width: 1110px;
+  height: 490px;
+  padding-top: 32px;
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "a d d";
+  justify-items: center;
+}
+
+.a {
+  grid-area: a;
+  width: 540px;
+  height: 490px;
+  background: url(../../assets/images/header/main.jpg) no-repeat center;
+}
+.b {
+  grid-area: b;
+  width: 255px;
+  height: 200px;
+  background: url(../../assets/images/header/woman.jpg) no-repeat center;
+}
+.c {
+  grid-area: c;
+  width: 255px;
+  height: 200px;
+  background: url(../../assets/images/header/man.jpg) no-repeat center;
+}
+
+.d {
+  grid-area: d;
+  width: 540px;
+  height: 260px;
+  background: url(../../assets/images/header/accessories.jpg) no-repeat center;
+}
+
+.banner__link {
+  position: relative;
+  width: 289px;
+  height: 100px;
+  left: 125px;
+  top: 195px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.banner__title {
+  font-size: 22px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 14px 32px 24px 32px;
+  margin: 0 auto;
+}
+
+.banner__name {
+  font-size: 12px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  padding: 24px 114px 0px 115px;
+  margin: 0 auto;
+}
+
+.categories__link {
+  position: relative;
+  height: 48px;
+  left: 27.06%;
+  right: 26.67%;
+  top: 38%;
+  bottom: 38%;
+  width: 166px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.categories__name {
+  font-size: 14px;
+  line-height: 22px;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 auto;
+}

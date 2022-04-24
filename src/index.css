@@ -1,13 +1,19 @@
+/* @font-face {
+    font-family: "Spartan-Medium";
+    src: local("Spartan-Medium"), url(./assets/fonts/Spartan-Medium.ttf) format("truetype");
+} */
+
+/* @font-face {
+    font-family: "PlayfairDisplaySC-Regular";
+    src: local("PlayfairDisplaySC-Regular"), url(./assets/fonts/PlayfairDisplaySC-Regular.ttf) format("truetype");
+} */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Spartan-Medium", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #121212;
 }
